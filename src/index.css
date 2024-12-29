@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Floating animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes float-delayed {
+  0% { transform: translateY(-20px); }
+  50% { transform: translateY(0px); }
+  100% { transform: translateY(-20px); }
+}
+
+/* Fade in animations */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mesh gradient animations */
+@keyframes mesh-animation {
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-50px, 50px) scale(1.2); }
+  66% { transform: translate(50px, -25px) scale(0.8); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+/* Utility classes */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 6s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-fade-in-delayed {
+  opacity: 0;
+  animation: fade-in 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+/* Mesh gradients */
+.mesh-gradient {
+  @apply absolute w-[800px] h-[800px] rounded-full opacity-30 mix-blend-multiply blur-3xl;
+  animation: mesh-animation 20s ease-in-out infinite;
+}
+
+.mesh-1 {
+  @apply bg-purple-300;
+  top: -400px;
+  right: -300px;
+  animation-delay: -5s;
+}
+
+.mesh-2 {
+  @apply bg-teal-300;
+  bottom: -400px;
+  left: -300px;
+  animation-delay: -10s;
+}
+
+.mesh-3 {
+  @apply bg-blue-300;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: -15s;
+}
