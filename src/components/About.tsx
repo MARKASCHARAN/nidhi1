@@ -69,9 +69,9 @@ const About = () => {
             {/* Stats Cards */}
             <div className="grid grid-cols-3 gap-6">
               {[
-                { metric: "1", label: "Years Experience" },
-                { metric: "2+", label: "Projects Completed" },
-                { metric: "10+", label: "Technologies" }
+                // { metric: "1", label: "Years Experience" },
+                // { metric: "2+", label: "Projects Completed" },
+                // { metric: "10+", label: "Technologies" }
               ].map((stat, index) => (
                 <div key={index} 
                      className="relative group p-6 bg-white rounded-xl border border-gray-100 shadow-sm 
