@@ -21,7 +21,7 @@ const Hero = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const technologies = ["Python", "SQL", "Spark", "Kafka", "Docker", "Java", "Django"];
+  const technologies = ["Python", "SQL", "Spark", "Kafka", "Docker", "Java"];
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-950">

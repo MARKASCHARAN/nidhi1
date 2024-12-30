@@ -11,7 +11,7 @@ const Skills = () => {
       level: 100, 
       color: 'from-teal-500 to-emerald-400',
       description: 'Expert in database design & complex queries',
-      features: ['Database Design', 'Query Optimization', 'Data Modeling']
+      features: ['D Base Design', 'Query Optimization', 'Data Modeling']
     },
     { 
       icon: Database, 
