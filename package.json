@@ -1,11 +1,12 @@
 {
- "homepage": "https://MARKASCHARAN.github.io/nidhi",
+ "homepage": "https://MARKASCHARAN.github.io/nidhi1",
  "name": "nidhi",
  "private": true,
  "version": "0.0.0",
  "type": "module",
  "scripts": {
-  "predeploy": "npm run build",
+
+"predeploy": "npm run build",
   "deploy": "gh-pages -d dist",
   "dev": "vite",
   "build": "vite build",
