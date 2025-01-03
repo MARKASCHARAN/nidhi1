@@ -78,7 +78,7 @@ const Certifications = () => {
       title: 'CCNA',
       issuer: 'Cisco',
       date: 'March 2024',
-      logo: '1734076179371.jpeg',
+      logo: 'public/assets/images/cisco.png',
       link: 'https://www.credly.com/earner/dashboard',
       badge: 'Verified',
     },
@@ -86,7 +86,7 @@ const Certifications = () => {
       title: 'AIML Specialization',
       issuer: 'BrightGeeks',
       date: 'March 2024',
-      logo: 'Thakore Nidhi Virendra -Python With Ai & Ml-1_page-0001.jpg',
+      logo: 'public/assets/images/ai-ml.png',
       link: 'https://www.credly.com/earner/dashboard',
       badge: 'Verified',
     }
