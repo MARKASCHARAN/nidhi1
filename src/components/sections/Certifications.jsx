@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
-import ciscoLogo from 'public/assets/images/cisco-min.png';
-import aiMlLogo from 'public/assets/images/ai-ml-min (1).png';
+import ciscoLogo from '../../assets/images/cisco-min.png';
+import aiMlLogo from '../../assets/images/ai-ml-min.png';
 
 const CertificationModal = ({ isOpen, onClose, title, issuer, logo }) => {
   if (!isOpen) return null;
