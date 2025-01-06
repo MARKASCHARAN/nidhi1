@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
+import ciscoLogo from 'public/assets/images/cisco-min.png';
+import aiMlLogo from 'public/assets/images/ai-ml-min (1).png';
 
 const CertificationModal = ({ isOpen, onClose, title, issuer, logo }) => {
   if (!isOpen) return null;
@@ -78,7 +80,7 @@ const Certifications = () => {
       title: 'CCNA',
       issuer: 'Cisco',
       date: 'March 2024',
-      logo: 'public/assets/images/cisco-min.png',
+      logo: ciscoLogo,
       link: 'https://www.credly.com/earner/dashboard',
       badge: 'Verified',
     },
@@ -86,7 +88,7 @@ const Certifications = () => {
       title: 'AIML Specialization',
       issuer: 'BrightGeeks',
       date: 'March 2024',
-      logo: 'public/assets/images/ai-ml-min (1).png',
+      logo: aiMlLogo,
       link: 'https://www.credly.com/earner/dashboard',
       badge: 'Verified',
     }
