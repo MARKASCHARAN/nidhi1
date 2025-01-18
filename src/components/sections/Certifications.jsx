@@ -94,7 +94,7 @@ const Certifications = () => {
     },
     {
       title: 'Operating Systems',
-      issuer: 'CISCO',
+      issuer: 'Cisco',
       date: 'JAN 2025',
       logo: "/assets/OS.jpeg",
       link: 'https://www.credly.com/earner/dashboard',
