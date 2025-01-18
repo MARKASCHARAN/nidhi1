@@ -80,7 +80,7 @@ const Certifications = () => {
       title: 'CCNA',
       issuer: 'Cisco',
       date: 'March 2024',
-      logo: "/assets/cisco-min.png",
+      logo: "/assets/cn.jpg",
       link: 'https://www.credly.com/earner/dashboard',
       badge: 'Verified',
     },
