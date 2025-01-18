@@ -91,6 +91,14 @@ const Certifications = () => {
       logo: "/assets/ai-ml-min (1).png",
       link: 'https://www.credly.com/earner/dashboard',
       badge: 'Verified',
+    },
+    {
+      title: 'Operating Systems',
+      issuer: 'CISCO',
+      date: 'JAN 2025',
+      logo: "",
+      link: 'https://www.credly.com/earner/dashboard',
+      badge: 'Verified',
     }
   ];
 
