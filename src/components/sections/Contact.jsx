@@ -98,7 +98,7 @@ const Contact = () => {
   ];
   const socialLinks = [
     {
-      href: "https://github.com/nidhi",
+      href: "https://github.com/tech-nidhi",
       icon: Github,
       label: "GitHub",
       color: "hover:text-purple-400"

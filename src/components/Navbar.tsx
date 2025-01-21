@@ -24,7 +24,7 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { href: 'https://github.com/nidhi', icon: Github, label: 'GitHub' },
+    { href: 'https://github.com/tech-nidhi', icon: Github, label: 'GitHub' },
     { href: 'https://www.linkedin.com/in/nidhi-thakore-10b9b825b/', icon: Linkedin, label: 'LinkedIn' },
     { href: 'mailto:nidhi@example.com', icon: Mail, label: 'Email' }
   ];
