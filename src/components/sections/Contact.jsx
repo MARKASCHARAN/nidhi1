@@ -161,7 +161,7 @@ const Contact = () => {
             
             <div className="space-y-4">
               <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">
-                Connect With Me
+                Connect With Me.
               </h4>
               <div className="flex space-x-4">
                 {socialLinks.map((social) => (
