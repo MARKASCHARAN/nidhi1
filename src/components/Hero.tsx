@@ -88,12 +88,14 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center pt-6 sm:pt-8">
-            <button
-              className="group px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl bg-white font-medium text-slate-900 hover:bg-white/90 transition-all flex items-center justify-center gap-2"
-            >
-              <ArrowDownToLine className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span>Download Resume</span>
-            </button>
+          <a
+  href="public/assets/pdf/NidhiThakore.pdf "
+  download="Nidhi_Thakore_Resume.pdf"
+  className="group px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl bg-white font-medium text-slate-900 hover:bg-white/90 transition-all flex items-center justify-center gap-2"
+>
+  <ArrowDownToLine className="w-4 h-4 sm:w-5 sm:h-5" />
+  <span>Download Resume</span>
+</a>
 
             <button
               className="group px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl border border-white/20 text-white/90 hover:bg-white/10 transition-all flex items-center justify-center gap-2"
