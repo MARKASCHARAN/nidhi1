@@ -89,8 +89,8 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center pt-6 sm:pt-8">
           <a
-  href="public/assets/pdf/NidhiThakore.pdf "
-  download="Nidhi_Thakore_Resume.pdf"
+  href="/assets/NidhiThakore.pdf"
+  download="Nidhi Thakore Resume.pdf"
   className="group px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl bg-white font-medium text-slate-900 hover:bg-white/90 transition-all flex items-center justify-center gap-2"
 >
   <ArrowDownToLine className="w-4 h-4 sm:w-5 sm:h-5" />
