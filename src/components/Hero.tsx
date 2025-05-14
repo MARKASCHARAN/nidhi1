@@ -21,10 +21,10 @@ const Hero = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const technologies = ["Python", "SQL", "Spark", "Kafka", "Docker", "Java"];
+  const technologies = ["AWS","Python", "SQL", "Spark", "Java"];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-950">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-gray-600 to-slate-950">
       {/* Animated Background Shapes */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute w-48 h-48 sm:w-72 sm:h-72 bg-purple-500/10 rounded-full blur-3xl top-1/4 -left-12 md:w-96 md:h-96 animate-pulse" />
@@ -65,7 +65,7 @@ const Hero = () => {
               <div className="absolute -bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
             </div>
             <p className="text-base sm:text-lg md:text-xl text-white/80">
-              Data Engineering Student
+              Cloud Data Engineering Student
             </p>
           </div>
 

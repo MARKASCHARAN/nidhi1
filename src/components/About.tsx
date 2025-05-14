@@ -6,26 +6,18 @@ const About = () => {
 
   const experiences = [
     {
+      icon: Cloud,
+      title: "Cloud Computing",
+      desc: "Leveraging cloud technologies for scalable solutions",
+      details: ["AWS", "Cloud Architecture"],
+      color: "group-hover:text-blue-400"
+    },{
       icon: Database,
       title: "Data Engineering",
       desc: "Specializing in building scalable data pipelines and ETL processes",
       details: ["Database Design", "ETL Processing", "Data Warehousing"],
       color: "group-hover:text-teal-400"
-    },
-    // {
-    //   icon: Cpu,
-    //   title: "Backend Development",
-    //   desc: "Creating robust and efficient backend systems",
-    //   details: ["API Development", "System Architecture", "Performance Optimization"],
-    //   color: "group-hover:text-purple-400"
-    // },
-    // {
-    //   icon: Cloud,
-    //   title: "Cloud Computing",
-    //   desc: "Leveraging cloud technologies for scalable solutions",
-    //   details: ["AWS", "Azure", "Cloud Architecture"],
-    //   color: "group-hover:text-blue-400"
-    // }
+    }
   ];
 
   return (
