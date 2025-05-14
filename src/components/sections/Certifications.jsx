@@ -77,6 +77,13 @@ const CertificationCard = ({ title, issuer, date, logo, link, badge }) => {
 const Certifications = () => {
   const certificationsData = [
     {
+      title: 'AWS Certified AI Practitione',
+      issuer: 'AWS',
+      date: 'MAY 2025',
+      logo: "/assets/ai_aws.jpeg",
+      link: 'https://www.credly.com/earner/dashboard',
+      badge: 'Verified',
+    },{
       title: 'CCNA',
       issuer: 'Cisco',
       date: 'Dec 2024',
