@@ -7,7 +7,7 @@ import {
 
 const experiences = [
     {
-        role: "Data Engineer",
+        role: "Data Engineer ",
         company: "Eternal Web Pvt Ltd",
         type: "Full-time",
         period: "May 2025 - June 2025",
